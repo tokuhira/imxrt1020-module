@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name imxrt1020-breakout-local)(type Legacy)(uri ${KIPRJMOD}/imxrt1020-breakout-local.lib)(options "")(descr "Local library"))
+)

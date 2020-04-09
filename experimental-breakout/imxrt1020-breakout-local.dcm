@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MIMXRT1021-LQFP100
+D NXP i.MX RT1020 Crossover Processors - LQFP100 package
+K RT1020
+F https://nxp.com/docs/en/data-sheet/IMXRT1020IEC.pdf
+$ENDCMP
+#
+$CMP Q13FC1350000200
+D Seiko 32.768kHz Crystal
+K Seiko SC-32S32.768kHz20PPM7pF
+F https://datasheet.lcsc.com/szlcsc/1811151431_Seiko-SC-32S32-768kHz20PPM7pF_C97604.pdf
+$ENDCMP
+#
+$CMP XRCGB24M000F2P00R0
+D Murata 24MHz Crystal
+K Murata
+F https://www.murata.com/ja-jp/api/pdfdownloadapi?cate=cgsubResonators&partno=XRCGB24M000F2P00R0
+$ENDCMP
+#
+#End Doc Library
