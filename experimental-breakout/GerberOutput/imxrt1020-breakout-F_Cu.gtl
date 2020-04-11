@@ -1,29 +1,29 @@
-G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(5.1.5-0-10_14)*
-G04 #@! TF.CreationDate,2020-03-26T12:42:47+09:00*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(5.1.5)-3*
+G04 #@! TF.CreationDate,2020-04-11T20:19:15+09:00*
 G04 #@! TF.ProjectId,imxrt1020-breakout,696d7872-7431-4303-9230-2d627265616b,rev?*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Copper,L1,Top*
 G04 #@! TF.FilePolarity,Positive*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (5.1.5-0-10_14)) date 2020-03-26 12:42:47*
+G04 Created by KiCad (PCBNEW (5.1.5)-3) date 2020-04-11 20:19:15*
 %MOMM*%
 %LPD*%
 G04 APERTURE LIST*
 G04 #@! TA.AperFunction,ComponentPad*
-%ADD10C,4.064000*%
+%ADD10O,1.400000X1.800000*%
 G04 #@! TD*
 G04 #@! TA.AperFunction,ComponentPad*
-%ADD11R,1.000000X1.000000*%
+%ADD11C,4.064000*%
 G04 #@! TD*
 G04 #@! TA.AperFunction,ComponentPad*
-%ADD12O,1.000000X1.000000*%
+%ADD12R,1.000000X1.000000*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,ComponentPad*
+%ADD13O,1.000000X1.000000*%
 G04 #@! TD*
 G04 #@! TA.AperFunction,SMDPad,CuDef*
-%ADD13C,0.100000*%
-G04 #@! TD*
-G04 #@! TA.AperFunction,ComponentPad*
-%ADD14O,1.400000X1.800000*%
+%ADD14C,0.100000*%
 G04 #@! TD*
 G04 #@! TA.AperFunction,ComponentPad*
 %ADD15C,0.600000*%
@@ -54,6 +54,14 @@ G04 #@! TA.AperFunction,Conductor*
 G04 #@! TD*
 G04 APERTURE END LIST*
 D10*
+G04 #@! TO.P,SW1,2*
+G04 #@! TO.N,GND*
+X145030000Y-108120000D03*
+G04 #@! TO.P,SW1,1*
+G04 #@! TO.N,/POR_B*
+X139950000Y-108120000D03*
+G04 #@! TD*
+D11*
 G04 #@! TO.P,P5,1*
 G04 #@! TO.N,N/C*
 X136248000Y-107450000D03*
@@ -70,17 +78,17 @@ G04 #@! TO.P,P8,1*
 G04 #@! TO.N,N/C*
 X156248000Y-87490000D03*
 G04 #@! TD*
-D11*
+D12*
 G04 #@! TO.P,JP1,1*
 G04 #@! TO.N,+3V3*
 X135455000Y-96230000D03*
-D12*
+D13*
 G04 #@! TO.P,JP1,2*
 G04 #@! TO.N,Net-(JP1-Pad2)*
 X135455000Y-94960000D03*
 G04 #@! TD*
 G04 #@! TA.AperFunction,SMDPad,CuDef*
-D13*
+D14*
 G04 #@! TO.P,U1,1*
 G04 #@! TO.N,N/C*
 G36*
@@ -7653,20 +7661,20 @@ X140332351Y-89025361D01*
 G37*
 G04 #@! TD.AperFunction*
 G04 #@! TD*
-D11*
+D12*
 G04 #@! TO.P,J1,1*
 G04 #@! TO.N,+3V3*
 X135455000Y-100040000D03*
-D12*
+D13*
 G04 #@! TO.P,J1,2*
 G04 #@! TO.N,GND*
 X135455000Y-98770000D03*
 G04 #@! TD*
-D11*
+D12*
 G04 #@! TO.P,J2,1*
 G04 #@! TO.N,+3V3*
 X157500000Y-96000000D03*
-D12*
+D13*
 G04 #@! TO.P,J2,2*
 G04 #@! TO.N,Net-(J2-Pad2)*
 X156230000Y-96000000D03*
@@ -7694,14 +7702,6 @@ X157500000Y-90920000D03*
 G04 #@! TO.P,J2,10*
 G04 #@! TO.N,Net-(J2-Pad10)*
 X156230000Y-90920000D03*
-G04 #@! TD*
-D14*
-G04 #@! TO.P,SW1,2*
-G04 #@! TO.N,GND*
-X145030000Y-108120000D03*
-G04 #@! TO.P,SW1,1*
-G04 #@! TO.N,/POR_B*
-X139950000Y-108120000D03*
 G04 #@! TD*
 D15*
 G04 #@! TO.P,1,1*
